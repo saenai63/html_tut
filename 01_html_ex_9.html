@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>html 연습 10</title>
+</head>
+<body>
+
+<! --표 : 행x열-- !>
+
+<! --1x1 표-- !>
+<table border="1">
+  <tr>
+    <td>1x1 표</td>
+  </tr>
+</table>
+
+<! --2x2 표-- !>
+<table border="1">
+  <tr>
+    <td>1,1</td>
+    <td>2,1</td>
+  </tr>
+  <tr>
+    <td>1,2</td>
+    <td>2,2</td>
+  </tr>
+</table>
+<! --2x4 표-- !>
+<table border="1">
+  <tr>
+    <td>1,1</td>
+    <td>1,2</td>
+    <td>1,3</td>
+    <td>1,4</td>
+  </tr>
+  <tr>
+    <td>2,1</td>
+    <td>2,2</td>
+    <td>2,3</td>
+    <td>2,4</td>
+  </tr>
+</table>
+
+<! -- 성적표 -- !>
+
+<table border="1">
+
+  <caption>과목별 합계 성적표표<caption>
+    <col style="width:100px" />
+
+  <thead>
+  <tr>
+    <th></th>
+    <th scope="col">국어</th>
+    <th scope="col">영어</th>
+    <th scope="col">수학</th>
+  </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">영희</th>
+      <td>90</td>
+      <td>90</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th csope="row">민수</th>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+  <tr>
+    <td>과목별합계</td>
+    <td>140</td>
+    <td>140</td>
+    <td>140</td>
+  </tr>
+  </tfoot>
+</table>
+
+<! -- 병합표 -- !>
+
+<table>
+  <tr>
+    <td rowspan="2">1,1</td>
+    <td colspan="2">2,1</td>
+    <! --<td>3,1</td> : (2,1)칸에서 2칸짜리로 늘렸기 때문에 필요 없음 -->
+  </tr>
+  <tr>
+    <! -- <td>2,1</td> : (1,1)칸에서 2칸짜리로 늘렸기 때문에 필요 없음 -->
+    <td>2,2</td>
+    <td>3,2</td>
+  </tr>
+
+</table>
+
+</body>
+<html>
