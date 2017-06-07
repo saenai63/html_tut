@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .container{
+      width:100%
+    background:#dddddd
+    float:left;
+    }
+    .block_left{
+      width:20%;
+      height:200px;
+      background:yellow;
+      float:left;
+    }
+    .block_center_center{
+      width:40%;
+      height:200px;
+      background:palevioletred;
+      float:left;
+    }
+    .block_center_center2{
+      width:100%;
+      height:200px;
+      background:palevioletred;
+      float:left;
+    }
+    .block_right{
+      width:40%;
+      height:200px;
+      background:gold;
+      float:right;
+    }
+    .block_center_right{
+      width:40%;
+      height:200px;
+      background:blue;
+      float:right;
+    }
+
+    .module_content{
+      width:100%;
+      height:300px;
+      background:#ff0000;
+      clear:both;
+    }
+    .container:after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  logo
+</header>
+
+<section class="container">
+
+  <nav class="block_left">1</nav>
+
+  <section class="block_center_center">2</section>
+
+  <section class="block_right">3</section>
+
+</section>
+
+<div class="module_content">
+  4
+</div>
+
+<section class="container">
+
+  <nav class="block_left">5</nav>
+
+    <section class="block_center_center">6</section>
+
+    <section class="block_center_right">7</section>
+
+
+
+<footer class="block_center_center2">
+      8
+  </footer>
+</section>
+
+
+
+
+</body>
+</html>

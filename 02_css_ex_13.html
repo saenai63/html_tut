@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .container{
+      width:100%
+    background:#dddddd
+    float:left;
+    }
+    .block_left{
+      width:20%;
+      height:400px;
+      background:yellow;
+      float:left;
+    }
+    .block_center_center{
+      width:40%;
+      height:200px;
+      background:palevioletred;
+      float:left;
+    }
+    .block_right{
+      width:40%;
+      height:800px;
+      background:gold;
+      float:right;
+    }
+    .block_center_right{
+      width:40%;
+      height:200px;
+      background:blue;
+      float:right;
+    }
+
+    .module_content{
+      width:60%;
+      height:400px;
+      background:#ff0000;
+      clear:left;
+
+    }
+    .container:after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+    .block_content_left{
+      width:20%;
+      height:200px;
+      background:yellow;
+      float:left;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  logo
+</header>
+
+<section class="container">
+
+  <nav class="block_left">1</nav>
+
+  <section class="block_center_center">2</section>
+
+  <section class="block_right">3</section>
+
+  <section class="block_center_center">4</section>
+
+<div>
+  <section class="module_content">5</section>
+
+</div>
+
+  <nav class="block_content_left">6</nav>
+
+  <section class="block_center_center">7</section>
+
+  <section class="block_center_right">8</section>
+
+
+
+
+
+
+</section>
+
+<section class="container">
+
+
+</section>
+
+
+
+
+
+
+</body>
+</html>
